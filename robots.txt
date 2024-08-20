@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Amelia3141.github.io/AmeliaCV/sitemap.xml
+Sitemap: https://Amelia3141.github.io//sitemap.xml
