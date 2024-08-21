@@ -1,24 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Amelia Ghanea",
+    "label": "Neuroscience Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "email": "aghanea.gh@gmail.com",
+    "phone": "07341384667",
+    "url": "https://Amelia3141.github.io/",
+    "summary": "Final year BSc Neuroscience student at the University of Bristol, preparing undergraduate research on AI in Pharmacovigilance for publication. Recipient of the 2024 Snowdon Master's Scholarship. Member of the Disabled Leaders Network and Windsor Fellowship. Prospective MSc candidate.",
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "LinkedIn": "https://www.linkedin.com/in/amelia-g",
       }
     ]
   },
