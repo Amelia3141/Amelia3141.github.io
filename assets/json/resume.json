@@ -14,41 +14,81 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Bristol",
+      "degree": "Neuroscience",
+      "studyType": "BSc",
+      "startDate": "2021",
+      "endDate": "2024",
+      "score": "First Class Honours in Year 2 overall and Year 1 Summer Exams",
+      "courses": [""]
     }
+  ],
+   "work": [
+    {
+      "name": "Elsevier - Global Health Markets",
+      "position": "Technology Optimisation Intern, Windsor Fellowship",
+      "startDate": "June 2024",
+      "endDate": "August 2024",
+      "summary": "
+Produced the first Software Development Lifecycle plan for Elsevier’s Health Markets, using Confluence and Jira APIs (React & Node. js) to improve collaboration and communication between 50+ groups, reducing average weekly time spent on admin-related tasks by 58% within the department.
+Piloted research into quantifying and mitigating racial and gender bias in the Clinical Key AI tool, implementing a proof-of-concept adapted retrieval-augmented generation system for over a million peer-reviewed medical papers.",
+    }
+  ],
+    "work": [
+    {
+      "name": "Neuro-Bio Ltd",
+      "position": "Consultant Computational Neuroscientist",
+      "startDate": "May 2023",
+      "endDate": "May 2024",
+      "summary": "
+Conducted an independent research project on the activity profiles of over 90 custom polyclonal antibodies via Western Blot and ELISA. Produced a comprehensive database detailing their specificity and use cases, saving the lab £500,000 pa on non-specific or low-quality assays and halving the time taken to reach a lead candidate therapeutic for Alzheimer’s Disease.
+Co-led an anti-ageing research collaboration with Unilever, using Python and R for high-throughput compound selection and analysis, reducing costs and time spent on in vitro assays.
+Ran cell viability and calcium assays on novel peptidomimetics and accelerated multi-omics data analysis by 35% by implementing gene set enrichment analysis (GSEA) and network-based proteomics approaches.
+Developed a custom workflow for small molecule/ peptide screens and cell viability/ calcium assay results processing in ImageJ/Fiji, accelerating data analysis with an accuracy of over 99.98% (from 71% done manually).
+Independently led the in-silico branch of drug discovery and development for Neuro-Bio's novel Alzheimer's therapeutic, utilizing both industry-standard tools (AutoDock Vina, Schrödinger, GROMACS) and the latest AI/ML techniques (RoseTTAFold All-Atom, custom-trained explainable graph neural networks) for MD simulations and free energy calculations. These efforts resulted in a 40% improvement in the accuracy of binding affinity predictions and 25% better target selectivity using QSAR-optimized structures.
+Produced an SOP for in-house ADMET modelling, combining cheminformatics (RDKit, MOE), quantum mechanics (Gaussian, ORCA), and deep learning (DeepChem), saving £150k+ on outsourcing and consultancy. 
+    }
+  ],
+    "work": [
+    {
+      "name": "Mouthy",
+      "position": "Research Assistant",
+      "startDate": "June 2022",
+      "endDate": "December 2023",
+      "summary": "
+Developed the website for a health start-up aimed at making dental insurance information accessible.
+Produced an integrated database for clinical market and investor research, resulting in successful early-stage VC funding. "work": [
+    }
+  ],
+   "work": [
+    {
+      "name": "University of Bristol",
+      "position": "Peer Reviewer",
+      "startDate": "February 2023",
+      "endDate": "July 2023",
+      "summary": "
+Reviewed and edited scientific papers for publication in a student-run Life Sciences journal.
+    }
+  ],
+   "work": [
+    {
+      "name": "Sustainability Champion",
+      "position": "University of Bristol",
+      "startDate": "January 2023",
+      "endDate": "July 2023",
+      "summary": "
+Reviewed undergraduate curricula and implemented subject-specific Education for Sustainable Development changes, working alongside academic staff and students within the Life Sciences department. These resulted in a two-fold increase in students opting into environment-related extracurriculars.    }
+  ],
+     "work": [
+    {
+      "name": "Research Assistant",
+      "position": "University of Bristol",
+      "startDate": "June 2019",
+      "endDate": "August 2019",
+      "summary": "
+Investigated blue light's impact on circadian rhythms, analyzing 50+ protein samples via Western Blot to quantify Suprachiasmatic Nucleus activity.   }
   ],
   "awards": [
     {
@@ -57,50 +97,6 @@
       "awarder": "Royal Swedish Academy of Sciences",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
