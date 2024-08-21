@@ -2,11 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Amelia Ghanea
     - name: Languages
-      value: English, German
+      value: English, Farsi, French
 
 - title: Education
   type: time_table
