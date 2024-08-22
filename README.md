@@ -20,7 +20,7 @@ LinkdIn: https://www.linkedin.com/in/amelia-g-b7849423a/
 GitHub: https://Amelia3141.github.io
 
 # 📫 How to reach me 
-Email ghhercock@gmail.com / dj21526@bristol.ac..uk
+Email ghhercock@gmail.com / dj21526@bristol.ac.uk
       
 Phone 07341384667
 
