@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Amelia Ghanea</title>
+<meta name="description" content="AI fairness and safety researcher. MPhil/PhD candidate at UCL Health Informatics." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='14' font-size='14' font-family='monospace'%3E%26gt;_%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+
+<style>
+  :root, html[data-theme="light"] {
+    --paper: oklch(0.985 0.004 80);
+    --paper-2: oklch(0.965 0.006 80);
+    --paper-3: oklch(0.94 0.008 80);
+    --ink: oklch(0.18 0.008 60);
+    --ink-2: oklch(0.32 0.01 60);
+    --ink-3: oklch(0.46 0.012 60);
+    --rule: oklch(0.78 0.012 70);
+    --rule-2: oklch(0.88 0.008 70);
+    --accent: oklch(0.36 0.11 305);
+    --accent-2: oklch(0.92 0.04 305);
+  }
+  html[data-theme="dark"] {
+    --paper: oklch(0.16 0.006 280);
+    --paper-2: oklch(0.2 0.008 280);
+    --paper-3: oklch(0.24 0.01 280);
+    --ink: oklch(0.98 0.005 80);
+    --ink-2: oklch(0.92 0.008 80);
+    --ink-3: oklch(0.78 0.01 80);
+    --rule: oklch(0.42 0.012 280);
+    --rule-2: oklch(0.32 0.01 280);
+    --accent: oklch(0.82 0.14 305);
+    --accent-2: oklch(0.32 0.06 305);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); transition: background 200ms ease, color 200ms ease; }
+  body {
+    font-family: 'Inconsolata', ui-monospace, 'Menlo', monospace;
+    font-size: 17px;
+    line-height: 1.5;
+    font-variant-ligatures: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: inherit; }
+  ::selection { background: var(--accent); color: var(--paper); }
+
+  .page { max-width: 1040px; margin: 0 auto; padding: 0 40px; }
+  @media (max-width: 760px) { .page { padding: 0 20px; } }
+</style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" data-presets="react" src="components/Nav.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Hero.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Now.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Research.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Experience.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Toolkit.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Recognition.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Contact.jsx"></script>
+  <script type="text/babel" data-presets="react" src="components/Footer.jsx"></script>
+  <script type="text/babel" data-presets="react" src="app.jsx"></script>
+</body>
+</html>
