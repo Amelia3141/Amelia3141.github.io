@@ -9,12 +9,12 @@ function Hero() {
 # london`}</pre>
 
       <h1 style={{
-        fontSize: 'clamp(22px, 2.6vw, 30px)',
-        lineHeight: 1.35, letterSpacing: '-0.005em', fontWeight: 500,
+        fontSize: 'clamp(20px, 2.2vw, 26px)',
+        lineHeight: 1.4, letterSpacing: '-0.005em', fontWeight: 500,
         margin: '0 0 22px', color: 'var(--ink)',
         maxWidth: 820,
       }}>
-        AI fairness and safety researcher. Bias detection, mechanistic interpretability, and evaluation frameworks for clinical AI systems.
+        Applied ML researcher and MPhil/PhD candidate at UCL, focused on mechanistic interpretability, algorithmic fairness, and computational methods for clinical AI. Experience spans bias detection in medical LLMs, GPU-accelerated Bayesian inference for disease subtyping, and building technology intelligence platforms integrating computational analysis with expert foresight.
       </h1>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px 16px', fontSize: 15, color: 'var(--ink-2)' }}>

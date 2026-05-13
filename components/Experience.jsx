@@ -5,9 +5,9 @@ function Experience() {
       company: 'Independent', position: 'Freelance technical consultant',
       link: null,
       bullets: [
-        'NetIntel (Z/Yen & SI Units): technical lead on AI foresight platform combining expert workshop data with scientometric and embedding analysis.',
-        'Built real-time collaborative visualisation tool (Next.js, TypeScript, Firebase) with interactive React/SVG signal visualisations and export.',
-        'University of Oxford: decision-support platform with prompt-engineered LLM, BERT classification, and RAG retrieval. React frontend, deployed on Vercel.',
+        'NetIntel (Z/Yen & SI Units): technical lead on AI foresight platform combining expert workshop data with scientometric and embedding analysis. Contributed to published working paper on non-LLM AI futures.',
+        'Built real-time collaborative visualisation tool (Next.js, TypeScript, Firebase) with interactive React/SVG signal visualisations and export, plus agentic AI/NLP ingestion pipeline for automatic updates across technology domains.',
+        'University of Oxford: decision-support platform with prompt-engineered LLM, BERT classification, RAG retrieval, and Bayesian decision models incorporating Prospect Theory and uncertainty quantification. React frontend on Vercel; dual-use risk assessment with technical safeguards.',
       ],
     },
     {
@@ -15,10 +15,10 @@ function Experience() {
       company: 'Advai', position: 'ML research scientist',
       link: 'https://www.advai.co.uk/',
       bullets: [
-        'Led research on bias detection and fairness evaluation in medical LLMs using mechanistic interpretability.',
-        'Built sparse-autoencoder pipelines and feature-analysis tools to surface demographic bias in clinical model representations.',
-        'Designed evaluation frameworks for algorithmic fairness across protected characteristics in healthcare AI.',
-        'First-author paper in preparation.',
+        'Developed novel internal intervention methodology for fairness evaluation in medical LLMs: sparse autoencoders to identify demographic-associated features, then activation clamping to simulate demographic presence — enabling bias detection without extensive demographic datasets.',
+        'Demonstrated clamped features replicate and exceed prompt-induced biases in clinical reasoning tasks, with feature similarity > 0.8 on Gemma 2B using DDXPlus diagnostic data.',
+        'Designed evaluation framework combining statistical testing (demographic parity, equalised odds) with mechanistic analysis of activation patterns across protected characteristics.',
+        'First-author paper in preparation: mechanistic interpretability methods for detecting demographic bias in clinical LLMs.',
       ],
     },
     {
@@ -35,8 +35,8 @@ function Experience() {
       company: 'Neuro-Bio Ltd', position: 'Computational neuroscientist',
       link: 'https://www.neuro-bio.com/',
       bullets: [
-        'Specificity database for 90+ antibodies, saving £500k on low-quality assays.',
-        'Multivariate compound selection in collaboration with Unilever research.',
+        'Specificity database for 90+ antibodies, saving £500k on low-quality assays and halving time to lead candidate.',
+        'Anti-ageing research collaboration with Unilever: multivariate compound selection.',
       ],
     },
   ];

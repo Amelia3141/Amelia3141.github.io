@@ -1,10 +1,10 @@
 function Toolkit() {
   const groups = [
-    { heading: 'lang', items: ['Python', 'R', 'JavaScript', 'HTML / CSS'] },
-    { heading: 'ml', items: ['PyTorch', 'JAX', 'scikit-learn', 'XGBoost', 'BioBERT', 'lifelines', 'shap'] },
-    { heading: 'fairness', items: ['Sparse autoencoders', 'mech interp', 'bias detection', 'fairness metrics', 'model auditing'] },
-    { heading: 'stats', items: ['Bootstrap validation', 'cross-validation', 'Cox regression', 'MCMC sampling'] },
-    { heading: 'data', items: [{ name: 'pandas', href: 'https://youtu.be/sGF6bOi1NfA?si=dKauuh4jLimwtzfV' }, 'numpy'] },
+    { heading: 'lang', items: ['Python', 'JavaScript / TypeScript', 'R', 'MATLAB'] },
+    { heading: 'ml', items: ['PyTorch', 'JAX / CUDA', 'scikit-learn', 'transformers (BERT / BioBERT)', 'RAG architectures', 'NLP', 'LLM evaluation', 'prompt engineering'] },
+    { heading: 'fairness', items: ['Sparse autoencoders', 'mech interp', 'activation steering', 'demographic parity', 'equalised odds', 'adversarial testing', 'dual-use risk assessment', 'model auditing'] },
+    { heading: 'stats', items: ['Bayesian inference', 'MCMC sampling', 'bootstrap validation', 'Cox regression', 'ordinal modelling', 'time-series analysis', 'uncertainty quantification'] },
+    { heading: 'deploy', items: [{ name: 'pandas', href: 'https://youtu.be/sGF6bOi1NfA?si=dKauuh4jLimwtzfV' }, 'numpy', 'BigQuery', 'React', 'Next.js', 'Firebase', 'Node.js', 'Vercel', 'Git / GitHub', 'CI/CD'] },
     { heading: 'human', items: ['English', 'Farsi', 'French', 'Italian', 'Turkish'] },
   ];
 
