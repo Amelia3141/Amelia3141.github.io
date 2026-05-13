@@ -54,6 +54,27 @@
 
   .page { max-width: 1040px; margin: 0 auto; padding: 0 40px; }
   @media (max-width: 760px) { .page { padding: 0 20px; } }
+
+  /* Nav: horizontally scrollable items on mobile, hidden scrollbar. */
+  .nav-items { display: flex; gap: 20px; align-items: center; }
+  .nav-items::-webkit-scrollbar { display: none; }
+  @media (max-width: 760px) {
+    .nav-row { gap: 12px; padding: 12px 20px !important; }
+    .nav-brand { flex-shrink: 0; }
+    .nav-items {
+      flex: 1;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      gap: 16px;
+      padding: 4px 0;
+      mask-image: linear-gradient(to right, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+    }
+    .nav-items > a { flex-shrink: 0; }
+    .nav-toggle { flex-shrink: 0; }
+  }
 </style>
 </head>
 <body>

@@ -34,17 +34,19 @@ function Nav() {
       borderBottom: scrolled ? '1px solid var(--rule-2)' : '1px solid transparent',
       transition: 'all 200ms ease',
     }}>
-      <div className="page" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '14px 40px' }}>
-        <a href="#top" style={{ textDecoration: 'none', display: 'flex', alignItems: 'baseline', gap: 8 }}>
+      <div className="page nav-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16, padding: '14px 40px' }}>
+        <a href="#top" className="nav-brand" style={{ textDecoration: 'none', display: 'flex', alignItems: 'baseline', gap: 8 }}>
           <span style={{ fontSize: 16, fontWeight: 600, color: 'var(--ink)' }}>amelia.ghanea</span>
           <span style={{ fontSize: 14, color: 'var(--ink-3)' }}>~/</span>
         </a>
-        <div style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
+        <div className="nav-items">
           {items.map((it) => (
             <a key={it.href} href={it.href} style={{
-              fontSize: 15, color: 'var(--ink-2)', textDecoration: 'none', fontWeight: 400,
+              fontSize: 15, color: 'var(--ink-2)', textDecoration: 'none', fontWeight: 400, whiteSpace: 'nowrap',
             }}>{it.label}</a>
           ))}
+        </div>
+        <div className="nav-toggle">
           <ThemeToggle theme={theme} onToggle={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
         </div>
       </div>

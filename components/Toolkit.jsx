@@ -4,8 +4,8 @@ function Toolkit() {
     { heading: 'ml', items: ['PyTorch', 'JAX', 'scikit-learn', 'XGBoost', 'BioBERT', 'lifelines', 'shap'] },
     { heading: 'fairness', items: ['Sparse autoencoders', 'mech interp', 'bias detection', 'fairness metrics', 'model auditing'] },
     { heading: 'stats', items: ['Bootstrap validation', 'cross-validation', 'Cox regression', 'MCMC sampling'] },
-    { heading: 'data', items: ['pandas', 'numpy'] },
-    { heading: 'human', items: ['English', 'French', 'Farsi', 'Italian', 'Turkish'] },
+    { heading: 'data', items: [{ name: 'pandas', href: 'https://youtu.be/sGF6bOi1NfA?si=dKauuh4jLimwtzfV' }, 'numpy'] },
+    { heading: 'human', items: ['English', 'Farsi', 'French', 'Italian', 'Turkish'] },
   ];
 
   return (
@@ -26,9 +26,17 @@ function Toolkit() {
               {g.heading}/
             </div>
             <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 2 }}>
-              {g.items.map((it) => (
-                <li key={it} style={{ fontSize: 15, color: 'var(--ink)' }}>{it}</li>
-              ))}
+              {g.items.map((it) => {
+                const isLink = typeof it === 'object' && it.href;
+                const label = isLink ? it.name : it;
+                return (
+                  <li key={label} style={{ fontSize: 15, color: 'var(--ink)' }}>
+                    {isLink ? (
+                      <a href={it.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none', borderBottom: '1px solid currentColor', paddingBottom: 1 }}>{label}</a>
+                    ) : label}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ))}
