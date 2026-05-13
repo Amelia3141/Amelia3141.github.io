@@ -27,7 +27,6 @@ function Experience() {
       link: 'https://www.elsevier.com/',
       bullets: [
         'Developed RAG system integrating 1,000,000+ medical papers.',
-        'Built Jira-API automation tools (React, Node.js), reducing individual admin work by 58%.',
         'Produced SDLC documentation integrating Agile best practices.',
       ],
     },
@@ -36,8 +35,6 @@ function Experience() {
       company: 'Neuro-Bio Ltd', position: 'Computational neuroscientist',
       link: 'https://www.neuro-bio.com/',
       bullets: [
-        'PyTorch pipelines for cell-assay image processing: accuracy 71% → 99.98%.',
-        'Python/R analysis workflows for high-throughput compound screening.',
         'Specificity database for 90+ antibodies, saving £500k on low-quality assays.',
         'Multivariate compound selection in collaboration with Unilever research.',
       ],
