@@ -1,6 +1,6 @@
 function Contact() {
   const rows = [
-    { label: 'email', value: 'amelia.ghaneahercock.24@ucl.ac.uk', href: 'mailto:amelia.ghaneahercock.24@ucl.ac.uk' },
+    { label: 'email', value: 'amelia.ghanea-hercock.24@ucl.ac.uk', href: 'mailto:amelia.ghaneahercock.24@ucl.ac.uk' },
     { label: 'phone', value: '+44 7341 384667', href: 'tel:+447341384667' },
     { label: 'github', value: '@Amelia3141', href: 'https://github.com/Amelia3141' },
     { label: 'linkedin', value: 'amelia-gh', href: 'https://www.linkedin.com/in/amelia-gh' },
